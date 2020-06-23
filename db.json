@@ -1,36 +1,27 @@
 {
   "produtos": [
     {
-      "ponto": "r",
-      "address": "r",
-      "address2": "r",
-      "state": "",
-      "city": "",
-      "items": [],
-      "id": 1
-    },
-    {
-      "ponto": "ponto",
-      "address": "rua",
-      "address2": "22",
-      "state": "Rio Grande do Sul",
-      "city": "",
-      "items": [
-        "aparelhos",
-        "jogos"
-      ],
-      "id": 2
-    },
-    {
-      "ponto": "Doação de jogos",
-      "address": "rua almirante silva",
-      "address2": "14",
+      "ponto": "Ponto de doação",
+      "address": "rua centro",
+      "address2": "12345",
       "state": "São Paulo",
       "city": "são paulo",
       "items": [
+        "cd",
         "jogos"
       ],
-      "id": 3
+      "id": 1
+    },
+    {
+      "ponto": "ponto 2",
+      "address": "rua 2",
+      "address2": "654321",
+      "state": "Rio Grande do Sul",
+      "city": "Porto Alegre",
+      "items": [
+        "jogos"
+      ],
+      "id": 2
     }
   ]
 }
