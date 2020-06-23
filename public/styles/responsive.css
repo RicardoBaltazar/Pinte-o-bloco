@@ -1,11 +1,15 @@
 @media(max-width: 900px){
+    /*page home*/
     .page-home header{
         display: flex;
         justify-content: center;
         margin-bottom: 25px;
     }
-
     
+    .page-home .logo{
+        font-size: 25px;
+    }
+
     .page-home{
         background-position-x: 200vw;
     }
@@ -13,22 +17,23 @@
     .page-home .content{
         align-items: center;
         text-align: center;
-        
     }
     
-    .page-home .logo{
-        font-size: 30px;
-    }
     
     .page-home main a{
         margin-left: 40px;
     }
     
+    /*page create*/
     .home-create header{
         margin-left: 0px;
         display: flex;
         justify-content: center;
         margin-bottom: 25px;
+    }
+
+    .page-create .logo{
+        font-size: 30px;
     }
 
     form{
@@ -56,6 +61,7 @@
         width: 350px;
     }
 
+    /*page search*/
     .page-search header{
         display: flex;
         justify-content: center;
@@ -75,7 +81,7 @@
     }
     
     .page-search .logo{
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 
@@ -158,7 +164,6 @@
         width: 300px;
     }
 
-
     .home-create form{
         width: 325px;
         margin-top: 18px;
@@ -181,8 +186,10 @@
 }
 
 @media(max-width: 320px){
+
     .page-home main h1{
         font-size: 35px;
+        font-size: 22px;
     }
 
     .page-home main p{
@@ -210,9 +217,5 @@
 
     form button{
         width: 250px;
-    }
-
-    .logo {
-        margin-bottom: 15px;
     }
 }

@@ -1,0 +1,36 @@
+{
+  "produtos": [
+    {
+      "ponto": "r",
+      "address": "r",
+      "address2": "r",
+      "state": "",
+      "city": "",
+      "items": [],
+      "id": 1
+    },
+    {
+      "ponto": "ponto",
+      "address": "rua",
+      "address2": "22",
+      "state": "Rio Grande do Sul",
+      "city": "",
+      "items": [
+        "aparelhos",
+        "jogos"
+      ],
+      "id": 2
+    },
+    {
+      "ponto": "Doação de jogos",
+      "address": "rua almirante silva",
+      "address2": "14",
+      "state": "São Paulo",
+      "city": "são paulo",
+      "items": [
+        "jogos"
+      ],
+      "id": 3
+    }
+  ]
+}

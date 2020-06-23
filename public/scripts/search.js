@@ -15,11 +15,11 @@ function getData(){
             console.log(element)
             
                  points.innerHTML += "<li>" + "<span class='spanLiPoint'>" + element.ponto  +"</span>"+ "<br>" 
-                + 'endereço : ' + element.address + "<br>"  
-                + 'número: ' + element.address2 + "<br>" 
-                + 'estado: ' + element.state + "<br>" 
-                + 'cidade: ' + element.city + "<br>"  
-                + 'itens: ' + element.items + "<br>"       
+                 + '<span class="spanItemsDonate">' + element.items + '</span>' +"<br>"       
+
+                + '<span class="spanAddress">' + 'endereço ' + '</span>' +  '<br>' + 
+                element.state + ' - ' +  element.city +"<br>"  
+                + element.address + ', ' + 'nº '  + element.address2 + "<br>"  
                  "</li>"
 
         })

@@ -1,17 +1,7 @@
 .page-search{
     max-width: 1200px;
     margin: 0 auto;
-    /*height: 100vh;*/
-    /*background: url("../assets/2887079.jpg") no-repeat;
-    background-size: 650px;
-    background-position: 45vw 100px;*/
 }
-
-.page-search .logo{
-    font-weight: bold;
-}
-
-
 
 .page-search .content{
     width: 90%;
@@ -19,8 +9,6 @@
     height: 100%;
     margin: 0 auto;
     background-color: #e7e4e4;
-    /*display: flex;
-    flex-direction: column;*/
 }
 
 .page-search header{
@@ -30,6 +18,10 @@
     align-items: center;
     margin-bottom: 25px;
     background-color: #e7e4e4;
+}
+
+.page-search header .logo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .page-search .content{
@@ -66,27 +58,30 @@
     list-style-type: none;
     text-align: left;
     font-size: 16px;
-    font-weight: 500;
-    width: 250px;
+    width: 200px;
     box-shadow: grey 1px 1px 0.1em;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-bottom: 25px;
+    padding: 20px 10px;
+    line-height: 16px;
+
+
 }
 .points li:hover{
     cursor: pointer;
 }
 
 .spanLiPoint{
-    background-color: var(--second-color);
-    margin: 0;
-    line-height: 40px;
+
     font-size: 25px;
-    color: white;
-    border-radius: 10px 10px 0 0;
-    padding: 10px 82.5px;
+    color: black;
+    margin: -50;
 }
-.spanLi{
+
+.spanItemsDonate{
     color: var(--second-color);
+}
+
+.spanAddress{
+    font-weight: bold;
 }
