@@ -1,27 +1,5 @@
 {
   "produtos": [
-    {
-      "ponto": "Ponto de doação",
-      "address": "rua centro",
-      "address2": "12345",
-      "state": "São Paulo",
-      "city": "são paulo",
-      "items": [
-        "cd",
-        "jogos"
-      ],
-      "id": 1
-    },
-    {
-      "ponto": "ponto 2",
-      "address": "rua 2",
-      "address2": "654321",
-      "state": "Rio Grande do Sul",
-      "city": "Porto Alegre",
-      "items": [
-        "jogos"
-      ],
-      "id": 2
-    }
+
   ]
 }
