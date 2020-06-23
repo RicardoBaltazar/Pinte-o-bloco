@@ -1,5 +1,8 @@
 # mediaDonate  
+
+![https://img.shields.io/github/license/RicardoBaltazar/mediaDonate](https://github.com/RicardoBaltazar/mediaDonate/blob/master/LICENSE)  
   
+
 ![home](https://user-images.githubusercontent.com/56805229/85428730-0a207100-b554-11ea-80c1-cfd1aa12e55b.gif)  
   
 ## :rocket: Tecnologias  
