@@ -17,7 +17,10 @@ O mediaDonate é uma aplicação front-end de cadastros de pontos de doação de
   
 ## :iphone: Responsividade  
   
-![responsive](https://user-images.githubusercontent.com/56805229/85431810-6eddca80-b558-11ea-87a0-c842b87a8d96.gif)
+#### Smatphones width 320px  
+![responsive](https://user-images.githubusercontent.com/56805229/85431810-6eddca80-b558-11ea-87a0-c842b87a8d96.gif)  
+  
+#### Tablets width 768px
 ![responsive2](https://user-images.githubusercontent.com/56805229/85437635-4b6b4d80-b561-11ea-89bb-534f43b18df0.gif)
 
   
