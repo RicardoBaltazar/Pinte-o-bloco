@@ -1,0 +1,82 @@
+.page-home{
+    height: 100vh;
+    width: 100vw;
+    /*background: url("../assets/2887079.jpg") no-repeat;*/
+    /*background-size: 650px;
+    background-position: 52vw 100px;*/
+    background: url("../assets/undraw_order_delivered_p6ba.svg") no-repeat;
+    background-size: 550px;
+    background-position: 50vw 160px;
+}
+
+.page-home .content{
+    width: 90%;
+    max-width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.page-home header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+
+.page-home header a{
+    color: white;
+    display: flex;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.page-home main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    max-width: 530px;
+    height: 200px;
+}
+
+.page-home main h1{
+    font-size: 54px;
+    margin-top: -20px;
+    color: black;
+}
+
+.page-home main p{
+    font-size: 23px;
+    line-height: 30px;
+    margin-top: 10px;
+    color: black;
+} 
+
+.page-home main a{
+    display: flex;
+    width: 100%;
+    max-width: 460px;
+    height: 50px;
+    margin-top: 25px;
+    background-color: var(--second-color);
+    border-radius: 10px;
+    transition: 500ms;
+
+    align-items: center;
+}
+
+.page-home main a:hover{
+    background-color: /*#e3ab28*/ var(--third-color);
+}
+
+.page-home main a strong{
+    flex: 1;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+

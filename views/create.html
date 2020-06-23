@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/styles/index.css">
+    <link rel="stylesheet" href="../public/styles/create.css">
+    <link rel="stylesheet" href="../public/styles/modal.css">
+    <link rel="stylesheet" href="../public/styles/responsive.css">
+    <title>mediaDonate</title>
+</head>
+<body>
+    
+    <div class="home-create">
+        <div class="content">
+
+
+            <header>
+                <!--
+                <img src="" alt="logotipo">
+                -->
+                <!--<h2 class="logo">media<span>Donate</span></h2>-->
+
+                <a href="index.html"><h2 class="logo">mediaDonate</h2></a>
+            </header>
+
+
+            <form action="#" method="POST">
+                <h1>Cadastro do ponto de doação</h1>
+
+                <fieldset>
+                    <legend>
+                        <h2>Dados do local</h2>
+                    </legend>
+
+                    <div class="field">
+                        <label for="name">Nome do ponto</label>
+                        <input type="text" name="name" required>
+                    </div>
+
+                    <div class="field-group">
+                        <div class="field">
+                            <label for="address">Endereço</label>
+                            <input type="text" name="address" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="address2">Número</label>
+                            <input type="text" name="address2">
+                        </div>
+                    </div>
+
+                    <div class="field-group">
+                        <div class="field">
+                            <label for="state">Estado</label>
+                            <select name="uf">
+                                <option value="">Selecione o estado</option>
+                            </select>
+                        </div>
+
+                        <div class="field">
+                            <label for="city">Cidade</label>
+                            <!--
+                            <select name="city">
+                                <option value="">Selecione a cidade</option>
+                            </select>
+                        -->
+                            <input type="text" id="city">
+                            <input type="hidden" name="state">
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>
+                        <h2>Itens que deseja doar</h2>
+                    </legend>
+                    <div class="grid-items">
+
+                        <li id="cd">
+                            Cd/Dvd
+                        </li>
+
+                        <li id="vinis">
+                            Vinis
+                        </li>
+
+                        <li id="jogos">
+                            jogos
+                        </li>
+
+                        <li id="aparelhos">
+                            Aparelhos
+                        </li>
+                    </div>
+                    <input type="hidden" name="items">
+                </fieldset>
+
+                <button type="submit" id="btnCreateItem">Cadastrar</button>
+            </form>        
+        </div>
+    </div>
+
+    <div class="modal hide">
+        <div class="content">
+            <h3>Dados cadastrados com sucesso!</h3>
+            <button id="btnModalClose">Concluir</button>
+        </div>
+    </div>
+
+
+    <script src="../public/scripts/create.js"></script>
+    <script src="../public/scripts/modal.js"></script>
+</body>
+</html>
