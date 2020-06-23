@@ -23,16 +23,32 @@ O mediaDonate é uma aplicação front-end de cadastros de pontos de doação de
 #### Tablet
 ![responsive2](https://user-images.githubusercontent.com/56805229/85437635-4b6b4d80-b561-11ea-89bb-534f43b18df0.gif)  
   
-## :simple_smile: Como contribuir  
+## :smile: Como contribuir  
   
 * Faça um fork desse repositório;  
 * Crie sua feature branch: ```git checkout -b my-new-feature```  
 * Adicione os arquivos modificados: ``` git add .```  
 * Faça um Commit com suas alterações: ```git commit -m "Add some feature"```  
-* Faça um push da sua branch: ``` git push origin my-new-feature ``  
+* Faça um push da sua branch: ``` git push origin my-new-feature ```  
 * Envie um Pull Request para esse repositório  
   
-* Adicione um título e uma descrição que deixe claro sua sugestão :smile:  
+* Adicione um título e uma descrição que deixe claro sua sugestão :v:  
+  
+## Inicialização  
+Primeiramente você precisa ter o npm instalado.
+
+Voçe precisa instalar e inicializar o json server para guardar os dados cadastrados.  
+O json server serve como uma api falsa, ótimo para criar api para projetos frontend.  
+* Primeiro instale o json server. Abra o terminal na pasta do projeto e digite o comando ``` npm install -g json-server ```  
+* Crie um arquivo chamado db.json na pasta do seu projeto.  
+* crie a estrutura do arquivo json para receber os dados.  
+```
+{
+  "produtos": []
+}
+```  
+* Vá até a pasta do projeto onde esta o arquivo db.json, abra o terminal e digite o comando ``` json-server --watch db.json --port 8000``` e inicie o json server na porta 8000  
+
 
 
 
