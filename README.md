@@ -29,6 +29,11 @@ O mediaDonate é uma aplicação front-end de cadastros de pontos de doação de
 * Crie sua feature branch: ```git checkout -b my-new-feature```  
 * Adicione os arquivos modificados: ``` git add .```  
 * Faça um Commit com suas alterações: ```git commit -m "Add some feature"```  
+* Faça um push da sua branch: ``` git push origin my-new-feature ``  
+* Envie um Pull Request para esse repositório  
+  
+* Adicione um título e uma descrição que deixe claro sua sugestão :smile:  
+
 
 
   
