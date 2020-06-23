@@ -34,11 +34,10 @@ O mediaDonate é uma aplicação front-end de cadastros de pontos de doação de
   
 * Adicione um título e uma descrição que deixe claro sua sugestão :v:  
   
-## Inicialização  
-Primeiramente você precisa ter o npm instalado.
+## :memo: Inicialização  
+Primeiramente você precisa ter o npm instalado. ```npm uninstall npm -g```  
 
-Voçe precisa instalar e inicializar o json server para guardar os dados cadastrados.  
-O json server serve como uma api falsa, ótimo para criar api para projetos frontend.  
+Voçe precisa instalar e inicializar o json server para guardar os dados cadastrados.   
 * Primeiro instale o json server. Abra o terminal na pasta do projeto e digite o comando ``` npm install -g json-server ```  
 * Crie um arquivo chamado db.json na pasta do seu projeto.  
 * crie a estrutura do arquivo json para receber os dados.  
@@ -48,6 +47,10 @@ O json server serve como uma api falsa, ótimo para criar api para projetos fron
 }
 ```  
 * Vá até a pasta do projeto onde esta o arquivo db.json, abra o terminal e digite o comando ``` json-server --watch db.json --port 8000``` e inicie o json server na porta 8000  
+* Acesse ```http://localhost:8000/produtos```  
+  
+##Lincença  
+[MIT license](https://github.com/RicardoBaltazar/mediaDonate/blob/master/LICENSE)
 
 
 
