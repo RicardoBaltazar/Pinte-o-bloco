@@ -4,8 +4,9 @@
   
 ## :rocket: Tecnologias  
 Esse projeto foi desenvolvido com as seguintes tecnologias:  
-*[Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
-*[Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS)  
-*[Javascript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)  
+  
+* [Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
+* [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS)  
+* [Javascript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)  
 
 
