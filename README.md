@@ -49,14 +49,6 @@ Voçe precisa instalar e inicializar o json server para guardar os dados cadastr
 * Vá até a pasta do projeto onde esta o arquivo db.json, abra o terminal e digite o comando ``` json-server --watch db.json --port 8000``` e inicie o json server na porta 8000  
 * Acesse ```http://localhost:8000/produtos```  
   
-## :memo: Lincença  
-[MIT license](https://github.com/RicardoBaltazar/mediaDonate/blob/master/LICENSE)
-
-
-
-
-  
-
-
-
+## :memo: Licença  
+[MIT license](https://github.com/RicardoBaltazar/mediaDonate/blob/master/LICENSE)  
 
