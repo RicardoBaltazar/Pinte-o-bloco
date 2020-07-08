@@ -35,7 +35,10 @@ O mediaDonate é uma aplicação front-end de cadastros de pontos de doação de
 * Adicione um título e uma descrição que deixe claro sua sugestão :v:  
   
 ## :ballot_box_with_check: Inicialização  
-Primeiramente você precisa ter o npm instalado. ```npm uninstall npm -g```  
+Primeiramente você precisa ter o npm instalado.  
+```#install the dependencies  
+   $ npm install
+```  
 
 Voçe precisa instalar e inicializar o json server para guardar os dados cadastrados.   
 * Primeiro instale o json server. Abra o terminal na pasta do projeto e digite o comando ``` npm install -g json-server ```  
